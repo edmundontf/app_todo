@@ -143,10 +143,5 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Colors.red,
       ),
     );
-    Share.share('teste');
-
-    Share.shareFiles(['${directory.path}/image.jpg'], text: 'Great picture');
-    Share.shareFiles(
-        ['${directory.path}/image1.jpg', '${directory.path}/image2.jpg']);
   }
 }
